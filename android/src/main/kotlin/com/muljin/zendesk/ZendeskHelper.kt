@@ -141,7 +141,7 @@ try {
     val chatConfiguration = chatConfigurationBuilder.build()
 try {
   MessagingActivity.builder()
-          .withToolbarTitle("Contact Us")
+          .withToolbarTitle("Chat")
           .withEngines(ChatEngine.engine())
           .show(activity, chatConfiguration)
 }catch ( e:Exception){
