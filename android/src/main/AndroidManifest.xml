@@ -4,9 +4,15 @@
   <application>
    <activity
       android:name="zendesk.messaging.MessagingActivity"
-      android:exported="true"
-      tools:replace="android:windowSoftInputMode"
-      android:windowSoftInputMode="adjustResize|stateAlwaysVisible">
+      android:windowSoftInputMode="adjustResize|stateAlwaysVisible"
+    android:theme="@style/Theme.ZendeskChat"
+    android:resizeableActivity="true"
+    android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout">
+    
+    <!-- Android 15+ -->
+    <meta-data
+        android:name="android.software.controls_on_screen_keyboard"
+        android:value="true" />
     </activity>
   </application>
 </manifest>
