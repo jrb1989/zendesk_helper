@@ -5,7 +5,7 @@ homepage: https://github.com/Muljin/
 repository: https://github.com/Muljin/zendesk_helper
 
 environment:
-  sdk: '>=3.0.0 <=3.8.1'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: '>=3.3.0'
 
 dependencies:
